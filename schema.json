@@ -1,0 +1,199 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": ["Organization", "LocalBusiness"],
+    "@id": "https://boro-tech.com/#organization",
+    "name": "Boro-tech",
+    "alternateName": "Boro-tech Technology Independence Specialists",
+    "description": "Enterprise-level technology solutions for small businesses in Hillsborough. Fast, affordable websites, custom applications, and automation services without corporate strings attached.",
+    "url": "https://boro-tech.com",
+    "logo": "https://boro-tech.com/logo.png",
+    "image": "https://boro-tech.com/og-image.jpg",
+    "telephone": "+1-717-964-8423",
+    "email": "info@boro-tech.com",
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Hillsborough",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "New Jersey"
+        }
+      },
+      {
+        "@type": "City", 
+        "name": "Somerset County"
+      }
+    ],
+    "serviceArea": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": "40.4812",
+        "longitude": "-74.6413"
+      },
+      "geoRadius": "50"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "areaServed": "US",
+      "availableLanguage": "English"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Boro-tech Founder"
+    },
+    "foundingDate": "2024",
+    "slogan": "Technology Independence Specialists",
+    "knowsAbout": [
+      "Web Development",
+      "Custom Applications",
+      "Business Automation",
+      "AI Implementation",
+      "Data Analytics",
+      "System Integration"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Technology Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Website Development",
+            "description": "Professional websites delivered in 7-10 days with full ownership transfer",
+            "serviceType": "Web Development",
+            "areaServed": "Hillsborough, NJ"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Custom Applications",
+            "description": "Tailored software solutions with rapid prototyping and ownership transfer",
+            "serviceType": "Software Development",
+            "areaServed": "Hillsborough, NJ"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Business Automation",
+            "description": "Workflow optimization and process automation for efficiency gains",
+            "serviceType": "Business Consulting",
+            "areaServed": "Hillsborough, NJ"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "AI Mentoring",
+            "description": "Strategic AI implementation for your business goals",
+            "serviceType": "AI Consulting",
+            "areaServed": "Hillsborough, NJ"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Data Analytics",
+            "description": "Transform raw data into actionable business strategy",
+            "serviceType": "Data Analytics",
+            "areaServed": "Hillsborough, NJ"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "System Integration",
+            "description": "Connect existing systems instead of replacing them",
+            "serviceType": "System Integration",
+            "areaServed": "Hillsborough, NJ"
+          }
+        }
+      ]
+    },
+    "sameAs": [
+      "https://twitter.com/boro-tech",
+      "https://linkedin.com/company/boro-tech",
+      "https://github.com/boro-tech"
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://boro-tech.com/#website",
+    "name": "Boro-tech",
+    "alternateName": "Boro-tech Technology Independence Specialists",
+    "url": "https://boro-tech.com",
+    "description": "Enterprise-level technology solutions for small businesses in Hillsborough. Fast, affordable websites, custom applications, and automation services without corporate strings attached.",
+    "inLanguage": "en-US",
+    "isAccessibleForFree": true,
+    "author": {
+      "@id": "https://boro-tech.com/#organization"
+    },
+    "publisher": {
+      "@id": "https://boro-tech.com/#organization"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://boro-tech.com/search?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    },
+    "mainEntity": {
+      "@id": "https://boro-tech.com/#organization"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://boro-tech.com#hero"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "https://boro-tech.com#services"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Mission",
+        "item": "https://boro-tech.com#mission"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Process",
+        "item": "https://boro-tech.com#process"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Advantages",
+        "item": "https://boro-tech.com#advantages"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "Trust",
+        "item": "https://boro-tech.com#trust"
+      }
+    ]
+  }
+]

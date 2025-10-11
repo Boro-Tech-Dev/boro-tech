@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Boro-tech provides enterprise-level technology solutions for small businesses in Hillsborough. Fast, affordable websites, custom applications, and automation services without corporate strings attached.">
+    <meta name="keywords" content="web development, custom applications, automation, AI mentoring, data analytics, integration, Hillsborough, small business technology, enterprise solutions, technology independence">
+    <meta name="author" content="Boro-tech">
+    <meta name="robots" content="index, follow">
+    <title>Boro-tech | Websites, Applications, and Custom Tech</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Boro-tech | Websites, Applications, and Custom Tech">
+    <meta property="og:description" content="Enterprise-level technology solutions for small businesses in Hillsborough. Fast, affordable websites, custom applications, and automation services without corporate strings attached.">
+    <meta property="og:url" content="https://boro-tech.com">
+    <meta property="og:image" content="https://boro-tech.com/og-image.jpg">
+    <meta property="og:site_name" content="Boro-tech">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Boro-tech | Technology Independence Specialists">
+    <meta name="twitter:description" content="Enterprise-level technology without corporate strings attached">
+    <meta name="twitter:image" content="https://boro-tech.com/twitter-card.jpg">
+    <meta name="twitter:site" content="@boro-tech">
+    
+    <!-- External JSON-LD Structured Data -->
+    <script type="application/ld+json" src="schema.json"></script>
+    
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    
+    <!-- Load stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Skip Links Styles -->
+    <style>
+    .skip-link {
+        position: absolute;
+        top: -40px;
+        left: 6px;
+        background: #000;
+        color: #fff;
+        padding: 8px;
+        text-decoration: none;
+        z-index: 1000;
+        border-radius: 4px;
+    }
+    .skip-link:focus {
+        top: 6px;
+    }
+    </style>
+</head>
+<body>
+    <!-- Skip Links for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <a href="#navigation" class="skip-link">Skip to navigation</a>
+    
+    <!-- Page Header -->
+    <header role="banner">
+        <!-- Navigation -->
+        <nav class="nav-container" id="nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-content">
+            <div class="nav-logo">
+                <span class="logo-text">Boro-tech</span>
+            </div>
+            <div class="nav-links">
+                <a href="#hero" class="nav-link" data-section="hero">Home</a>
+                <a href="#services" class="nav-link" data-section="services">Services</a>
+                <a href="#mission" class="nav-link" data-section="mission">Mission</a>
+                <a href="#process" class="nav-link" data-section="process">Process</a>
+                <a href="#advantages" class="nav-link" data-section="advantages">Advantages</a>
+                <a href="#trust" class="nav-link" data-section="trust">Trust</a>
+            </div>
+        </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section" aria-labelledby="hero-title">
+        <div class="hero-background">
+            <div class="hero-particles" id="particles"></div>
+            <div class="hero-gradient"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <span class="badge-text">Attention! Hillsborough Business Owners:</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Website, Applications,</span>
+                    <span class="title-line">and Custom Tech</span>
+                </h1>
+                <p class="hero-subtitle">Enterprise-level technology without corporate strings attached</p>
+                <div class="hero-description">
+                    <p>We’ve been building web pages since there were web pages to build. Over decades, we’ve combined hands-on experience with enterprise-level expertise, translating what we learned working with big budgets and complex systems into solutions that small businesses can actually use. Along the way, we’ve created new tools to provide a different kind of web-building experience — one that’s faster, more flexible, and always designed to put you in control.</p>
+                </div>
+                <div class="hero-cta">
+                    <button class="cta-primary" id="ctaPrimary" aria-label="Reclaim your technology independence - scroll to services">Reclaim Your Technology</button>
+                    <button class="cta-secondary" id="ctaSecondary" aria-label="Learn more about our mission">Learn More</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="molecular-visualization">
+                    <!-- Standalone Process Flow SVG -->
+                    <object data="boro-tech-process-flow.svg" type="image/svg+xml" style="width: 100%; height: 100%; max-width: 100%; max-height: 100%;" aria-labelledby="process-flow-title" aria-describedby="process-flow-desc">
+                        <img src="boro-tech-process-flow.svg" alt="Technology Process Flow Visualization" style="width: 100%; height: 100%; max-width: 100%; max-height: 100%; object-fit: contain;">
+                    </object>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Services Article -->
+        <article id="services" class="services-section" aria-labelledby="services-title">
+        <div class="section-header">
+            <h2 class="section-title">What We Do</h2>
+            <p class="section-subtitle">Professional websites and applications for small businesses — fast, affordable, and fully owned by you. Here’s the truth: big companies only care about you until you become a customer. The sign-up path is smooth and shiny, but everything after that becomes a maze of call centers, ticket numbers, and endless frustration. The post-sale experience is a disjointed nightmare — built to lock you in, not lift you up. We designed our process as the opposite: personal, transparent, and built on accountability. With us, you never get lost in the shuffle.</p>
+        </div>
+        
+        <div class="services-grid">
+            <div class="service-card" data-service="websites">
+                <div class="service-header">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="service-title">Websites</h3>
+                </div>
+                <div class="service-timeline">
+                    <span class="timeline-fast">7-10 days</span>
+                    <span class="timeline-vs">not</span>
+                    <span class="timeline-slow">6-12 weeks</span>
+                </div>
+                <ul class="service-benefits">
+                    <li>Fast delivery</li>
+                    <li>Affordable pricing</li>
+                    <li>Fully owned by client</li>
+                </ul>
+            </div>
+
+            <div class="service-card" data-service="apps">
+                <div class="service-header">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="service-title">Custom Apps</h3>
+                </div>
+                <div class="service-timeline">
+                    <span class="timeline-fast">3-6 Weeks</span>
+                    <span class="timeline-vs">not</span>
+                    <span class="timeline-slow">4-6 Months</span>
+                </div>
+                <ul class="service-benefits">
+                    <li>Rapid prototyping</li>
+                    <li>Custom solutions</li>
+                    <li>Ownership transfer</li>
+                </ul>
+            </div>
+
+            <div class="service-card" data-service="automation">
+                <div class="service-header">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="service-title">Automation</h3>
+                </div>
+                <div class="service-timeline">
+                    <span class="timeline-fast">Weeks</span>
+                    <span class="timeline-vs">not</span>
+                    <span class="timeline-slow">Months</span>
+                </div>
+                <ul class="service-benefits">
+                    <li>Workflow optimization</li>
+                    <li>Process automation</li>
+                    <li>Efficiency gains</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="speed-demonstration">
+            <h3>Real-Time Market Response</h3>
+            <div class="speed-grid">
+                 <div class="speed-item">
+                    <div class="speed-time">90 minutes</div>
+                    <div class="speed-action">Competitor pricing shift? Response ready</div>
+                </div>
+                <div class="speed-item">
+                    <div class="speed-time">2 hours</div>
+                    <div class="speed-action">Local event? Campaign live</div>
+                </div>
+                <div class="speed-item">
+                    <div class="speed-time">3 hours</div>
+                    <div class="speed-action">Seasonal trend? Landing page live</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="specialized-services">
+            <h3 class="specialized-title">Specialized Services</h3>
+            <div class="specialized-grid">
+                <div class="specialized-card">
+                    <div class="specialized-header">
+                        <i class="fas fa-brain"></i>
+                        <h4>AI Mentoring</h4>
+                    </div>
+                    <p>Strategic AI implementation for your business goals</p>
+                    <div class="specialized-topics">
+                        <span class="topic-tag">AI Fundamentals</span>
+                        <span class="topic-tag">Tool Selection</span>
+                        <span class="topic-tag">Implementation</span>
+                    </div>
+                </div>
+
+                <div class="specialized-card">
+                    <div class="specialized-header">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Data Analytics</h4>
+                    </div>
+                    <p>Transform raw data into actionable business strategy</p>
+                    <div class="specialized-topics">
+                        <span class="topic-tag">Transaction Patterns</span>
+                        <span class="topic-tag">Market Analysis</span>
+                        <span class="topic-tag">Predictive Insights</span>
+                    </div>
+                </div>
+
+                <div class="specialized-card">
+                    <div class="specialized-header">
+                        <i class="fas fa-link"></i>
+                        <h4>Integration</h4>
+                    </div>
+                    <p>Connect existing systems instead of replacing them</p>
+                    <div class="specialized-topics">
+                        <span class="topic-tag">Shopify</span>
+                        <span class="topic-tag">Salesforce</span>
+                        <span class="topic-tag">QuickBooks</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </article>
+
+        <!-- Mission Article -->
+        <article id="mission" class="mission-section" aria-labelledby="mission-title">
+        <div class="mission-content">
+            <div class="mission-text">
+                <h2 class="mission-title">Our Mission</h2>
+                <p class="mission-statement">Give small businesses enterprise-level technology without corporate strings attached</p>
+                
+                <h3 class="vision-title">Our Vision</h3>
+                <p class="vision-statement">A business landscape where local companies operate with the same digital power as Fortune 500s, but with the flexibility and community focus that big business can't match</p>
+                
+                <div class="philosophy">
+                    <h4>Our Philosophy</h4>
+                    <p>Technology should serve you, not control you. When small businesses own their digital tools, entire communities benefit through stronger economies, more jobs, and more innovation.</p>
+                </div>
+            </div>
+            
+            <div class="mission-visual">
+                <div class="mission-card">
+                    <div class="card-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h4>Partnership, Not Vendor</h4>
+                    <p>We grow with you. We become an extension of your team, not a vendor.</p>
+                </div>
+                
+                <div class="mission-card">
+                    <div class="card-icon">
+                        <i class="fas fa-unlock"></i>
+                    </div>
+                    <h4>Technology Independence</h4>
+                    <p>Own your infrastructure, deploy your own AI, and control your data.</p>
+                </div>
+                
+                <div class="mission-card">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h4>Team Empowerment</h4>
+                    <p>We build capacity inside your team, not just tools.</p>
+                </div>
+            </div>
+        </div>
+        </article>
+
+        <!-- Process Article -->
+        <article id="process" class="process-section" aria-labelledby="process-title">
+        <div class="section-header">
+            <h2 class="section-title">From Brain to Market</h2>
+            <p class="section-subtitle">Rapid translation of vision into working solutions</p>
+        </div>
+        
+        <div class="process-timeline">
+            <div class="process-step" data-step="1">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <h3>Vision Translation</h3>
+                    <p>You don't need to explain "cool" in technical terms — you'll know it when you see it. We work iteratively, showing prototypes fast and refining until it clicks.</p>
+                </div>
+            </div>
+            
+            <div class="process-step" data-step="2">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <h3>Workflow Optimization</h3>
+                    <p>Complete workflow mapping, automation first approach, and integration focus. Every new process comes with training modules and documentation.</p>
+                </div>
+            </div>
+            
+            <div class="process-step" data-step="3">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <h3>Implementation</h3>
+                    <p>Harness existing and new tools to create exactly what your business needs: automated reporting dashboards, intelligent customer service tools, or custom analytics.</p>
+                </div>
+            </div>
+        </div>
+        </article>
+
+        <!-- Advantages Article -->
+        <article id="advantages" class="advantages-section" aria-labelledby="advantages-title">
+        <div class="section-header">
+            <h2 class="section-title">Your Competitive Edge</h2>
+            <p class="section-subtitle">Data as your strategic advantage</p>
+        </div>
+        
+        <div class="advantages-grid">
+            <div class="advantage-card">
+                <div class="advantage-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3>Data Intelligence</h3>
+                <p>Transform raw data into strategy: revealing where your most profitable customers are, how to reach them, and how to outmaneuver competitors.</p>
+            </div>
+            
+            <div class="advantage-card">
+                <div class="advantage-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3>AI Advantage</h3>
+                <p>Small businesses are better positioned than corporations. Big companies are slowed by bureaucracy and legacy systems. You can move today.</p>
+            </div>
+            
+            <div class="advantage-card">
+                <div class="advantage-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Market Intelligence</h3>
+                <p>Analyze competitor strategies, identify market gaps, and get actionable recommendations for pricing, marketing, and service offerings.</p>
+            </div>
+        </div>
+        
+        <div class="growth-promise">
+            <h3>Long-Term Growth</h3>
+            <div class="growth-features">
+                <div class="growth-feature">
+                    <i class="fas fa-expand-arrows-alt"></i>
+                    <span>Scalable Architecture</span>
+                </div>
+                <div class="growth-feature">
+                    <i class="fas fa-puzzle-piece"></i>
+                    <span>Modular Design</span>
+                </div>
+                <div class="growth-feature">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Future-Proofing</span>
+                </div>
+                <div class="growth-feature">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <span>Market Responsiveness</span>
+                </div>
+            </div>
+        </div>
+        </article>
+
+        <!-- Trust Article -->
+        <article id="trust" class="trust-section" aria-labelledby="trust-title">
+        <div class="section-header">
+            <h2 class="section-title">Why You Can Trust Us</h2>
+            <p class="section-subtitle">Experience, transparency, and accountability</p>
+        </div>
+        
+        <div class="trust-content">
+            <div class="experience-card">
+                <h3>Fortune 500 Experience</h3>
+                <p>Our team has delivered complex projects for Fortune 500 companies with budgets from $500K to $5M. We've seen what works, what fails, and what separates winners from losers.</p>
+                <div class="experience-badges">
+                    <span class="badge">$500K - $5M Projects</span>
+                    <span class="badge">Enterprise Expertise</span>
+                    <span class="badge">Proven Results</span>
+                </div>
+            </div>
+            
+            <div class="trust-factors">
+                <div class="trust-factor">
+                    <i class="fas fa-eye"></i>
+                    <h4>Clear Pricing</h4>
+                    <p>Fixed and transparent pricing with no surprises</p>
+                </div>
+                
+                <div class="trust-factor">
+                    <i class="fas fa-file-contract"></i>
+                    <h4>Detailed Proposals</h4>
+                    <p>No surprises on scope or timeline</p>
+                </div>
+                
+                <div class="trust-factor">
+                    <i class="fas fa-comments"></i>
+                    <h4>Direct Communication</h4>
+                    <p>You always know what's happening</p>
+                </div>
+                
+                <div class="trust-factor">
+                    <i class="fas fa-key"></i>
+                    <h4>Ownership Transfer</h4>
+                    <p>All code, data, and IP belong to you</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cta-section">
+            <h3>Ready to Reclaim Your Technology Independence?</h3>
+            <p>Hillsborough's Technology Independence Specialists</p>
+            <div class="cta-buttons">
+                <button class="cta-primary" aria-label="Contact us to build your technology solution">Let's Build It Together</button>
+                <button class="cta-secondary" aria-label="Get started with our services">Get Started</button>
+            </div>
+        </div>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Boro-tech</h3>
+                <p>Technology Independence Specialists</p>
+            </div>
+            <div class="footer-location">
+                <p>Hillsborough</p>
+                <p>Local businesses and communities</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
